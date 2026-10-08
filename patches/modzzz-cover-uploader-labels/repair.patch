@@ -1,0 +1,22 @@
+--- a/modules/modzzz/news/classes/MzNewsConfig.php
++++ b/modules/modzzz/news/classes/MzNewsConfig.php
+@@ -232,6 +232,8 @@
+                 'txt_sample_score_up_single' => '_mz_news_txt_sample_score_up_single',
+                 'txt_sample_score_down_single' => '_mz_news_txt_sample_score_down_single',
+                 'form_field_author' => '_mz_news_form_entry_input_author',
++                'form_field_covers_uploader_simple' => '_mz_news_form_entry_input_covers_uploader_simple_title',
++                'form_field_covers_uploader_html5' => '_mz_news_form_entry_input_covers_uploader_html5_title',
+             	'grid_action_err_delete' => '_mz_news_grid_action_err_delete',
+             	'grid_txt_account_manager' => '_mz_news_grid_txt_account_manager',
+                 'filter_item_active' => '_mz_news_grid_filter_item_title_adm_active',
+--- a/modules/modzzz/announcements/classes/MzAnnouncementsConfig.php
++++ b/modules/modzzz/announcements/classes/MzAnnouncementsConfig.php
+@@ -200,6 +200,8 @@
+                 'txt_sample_score_up_single' => '_mz_announcements_txt_sample_score_up_single',
+                 'txt_sample_score_down_single' => '_mz_announcements_txt_sample_score_down_single',
+                 'form_field_author' => '_mz_announcements_form_entry_input_author',
++                'form_field_covers_uploader_simple' => '_mz_announcements_form_entry_input_covers_uploader_simple_title',
++                'form_field_covers_uploader_html5' => '_mz_announcements_form_entry_input_covers_uploader_html5_title',
+             	'grid_action_err_delete' => '_mz_announcements_grid_action_err_delete',
+             	'grid_txt_account_manager' => '_mz_announcements_grid_txt_account_manager',
+                 'filter_item_active' => '_mz_announcements_grid_filter_item_title_adm_active',

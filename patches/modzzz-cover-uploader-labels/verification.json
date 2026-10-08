@@ -1,0 +1,52 @@
+{
+  "site": "myunaworld.com",
+  "time_utc": "20261008T020933Z",
+  "reproduced_on": [
+    "https://myunaworld.com/create-news",
+    "https://myunaworld.com/create-announcement"
+  ],
+  "changes": [
+    {
+      "module": "news",
+      "file": "modules/modzzz/news/classes/MzNewsConfig.php",
+      "before_sha256": "b74746ed9aadbbc637fddeb2545c4eb432bbc71b308cb44d26faff3c17eeaf4f",
+      "after_sha256": "e5e1c6fd7ca1ee3f0682be5ed39d1881e6670246bb6b0f71e6d1d72b81b27b65",
+      "change": "Map both cover uploader titles to existing module translation keys"
+    },
+    {
+      "module": "announcements",
+      "file": "modules/modzzz/announcements/classes/MzAnnouncementsConfig.php",
+      "before_sha256": "9ed52cf91bfb8c4983acc621deb399a61ea921f7beb652b3ac12039fd5fa6e5f",
+      "after_sha256": "1864832b0e1e0452f9c18c58fcb9f8d3b2e753c19d6ca368cc1d38a0b4dab551",
+      "change": "Map both cover uploader titles to existing module translation keys"
+    }
+  ],
+  "base_text_sha256": "97ebdd7453c85499f19fe1541374460ef18dece457dd632f0856c16e3b00af34",
+  "patch_sha256": "2beab1e8450a8074917f517e6bec5606b8c9dd49a345ecd599da609859f510ff",
+  "environment": {
+    "una": "15.0.0-RC2",
+    "php_cli": "8.3.6"
+  },
+  "verification": {
+    "before": {
+      "news_form_cover_uploader_warnings": true,
+      "announcements_form_cover_uploader_warnings": true
+    },
+    "after": {
+      "news_form_php_warnings": 0,
+      "announcements_form_php_warnings": 0,
+      "header_image_present": true,
+      "upload_label_present": true,
+      "publish_control_present": true,
+      "php_syntax_checks": "passed",
+      "missing_modzzz_cover_uploader_labels": 0,
+      "microphone_module_registrations": 0
+    },
+    "patch_replay": {
+      "result": "passed",
+      "matches_deployed_file_hashes": true
+    },
+    "core_file_unchanged": true,
+    "uploaded_or_published_test_content": false
+  }
+}
